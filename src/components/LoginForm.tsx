@@ -28,7 +28,7 @@ const LoginForm: React.FC<{ onClose?: () => void }> = ({ onClose }) => {
         <input
           value={email}
           onChange={e => setEmail(e.target.value)}
-          placeholder="you@domain.edu"
+          placeholder="enter your vit bhopal email id"
           type="email"
           className="mt-1 block w-full rounded-md border-gray-200 shadow-sm"
         />
@@ -39,7 +39,7 @@ const LoginForm: React.FC<{ onClose?: () => void }> = ({ onClose }) => {
         <input
           value={regNo}
           onChange={e => setRegNo(e.target.value)}
-          placeholder="e.g. 25BSA10150"
+          placeholder="enter your registration number in uppercase"
           className="mt-1 block w-full rounded-md border-gray-200 shadow-sm"
         />
       </div>
